@@ -1,0 +1,25 @@
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    margin: 2px;
+}
+.button:focus, .button:active{
+    background-color:black;
+    color: #fbfcfc;
+}
+.button:active {
+    transform: translateY(4px);
+}
+.text{
+    width: 380px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}

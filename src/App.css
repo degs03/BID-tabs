@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  justify-content: center;
+}
+.tabsBox{
+  width: 380px;
+  flex-direction: column;
+  display: flex;
 }
 
 .App-logo {
